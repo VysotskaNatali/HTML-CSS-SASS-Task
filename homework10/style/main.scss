@@ -1,0 +1,165 @@
+@import "base/_base.scss";
+@import "base/varible";
+@import "base/mixins";
+
+body {
+  background-color: rgb(235, 93, 68);
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  @include box ( 100%, 300px );
+  background-color: $main-color;
+  margin-top: 180px;
+}
+.twitter {
+  display: flex;
+  flex-direction: row;
+  min-width: 150px;
+  height: 300px;
+ 
+
+  &__brand {
+    @include box ( 150px, 300px );
+    border: 1px solid rgb(170, 168, 168);
+    background-color: $second-color;
+    color: $item-color;
+    font-size: 60px;
+    text-align: center;
+    line-height: 300px;
+    position: relative;
+    transition-duration: 0.7s;
+    transition-property: width;
+  }
+  &__item {
+    display: none;
+    width: 0px;
+    height: 300px;
+    overflow: hidden;
+    background-color: $item-color;
+    transition-duration: 0.7s;
+    transition-property: width;
+    h1 {
+      margin: 100px 0px 10px 10px;
+      font: {
+        size: 30px;
+        weight: 900;
+        family: monospace;
+      }
+      font-family: monospace;
+    }
+    p {
+      margin-left: 10px;
+      font-family: monospace;
+    }
+  }
+ 
+}
+
+.twitter__brand::before {
+  content: "\f099";
+  font-family: "Font Awesome 5 Brands";
+  font-size: 80px;
+  color: $item-color;
+  overflow: hidden;
+  width: 0px;
+  height: 300px;
+  background: #3e8ab1;
+  background: linear-gradient(166deg, #36adeb 0%, #052b55 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition-duration: 0.1s;
+  transition-property: width;
+}
+.twitter:hover  .twitter__brand::before {
+  width: 150px;
+}
+.twitter:hover .twitter__item {
+    width: 350px;
+    display: block;
+  }
+  .facebook {
+    @extend .twitter;
+    &__brand{
+        @extend .twitter__brand;
+    }
+    &__item{
+        @extend .twitter__item;
+    }
+}
+.facebook__brand::before {
+    content: "\f082";
+    background: rgb(5,22,47);
+background: linear-gradient(166deg, rgba(5,22,47,1) 0%, rgba(27,34,153,1) 100%);
+}
+.linkedld {
+    @extend .twitter;
+    &__brand{
+        @extend .twitter__brand;
+    }
+    &__item{
+        @extend .twitter__item;
+    }
+}
+.linkedld__brand::before {
+    content: "\f08c";
+    background: rgb(12,30,55);
+background: linear-gradient(166deg, rgba(12,30,55,1) 0%, rgba(49,122,184,1) 100%);
+}
+.instagram {
+    @extend .twitter;
+    &__brand{
+        @extend .twitter__brand;
+    }
+    &__item{
+        @extend .twitter__item;
+    }
+}
+.instagram__brand::before {
+    content: "\f16d";
+    background: rgb(18,65,9);
+background: linear-gradient(166deg, rgba(18,65,9,1) 0%, rgba(61,184,49,1) 100%);
+}
+.youtube {
+    @extend .twitter;
+    &__brand{
+        @extend .twitter__brand;
+    }
+    &__item{
+        @extend .twitter__item;
+    }
+}
+.youtube__brand::before {
+    content: "\f167";
+    background: rgb(200,53,20);
+    background: linear-gradient(166deg, rgba(200,53,20,1) 0%, rgba(227,81,62,1) 100%);
+}
+.tumblur {
+    @extend .twitter;
+    &__brand{
+        @extend .twitter__brand;
+    }
+    &__item{
+        @extend .twitter__item;
+    }
+}
+.tumblur__brand::before {
+    content: "\f173";
+    background: rgb(2,2,24);
+    background: linear-gradient(166deg, rgba(2,2,24,1) 0%, rgba(112,111,245,1) 100%);
+}
+.dribbble {
+    @extend .twitter;
+    &__brand{
+        @extend .twitter__brand;
+    }
+    &__item{
+        @extend .twitter__item;
+    }
+}
+.dribbble__brand::before {
+    content: "\f17d";
+    background: rgb(161,11,49);
+background: linear-gradient(166deg, rgba(161,11,49,1) 0%, rgba(228,71,98,1) 100%);
+}

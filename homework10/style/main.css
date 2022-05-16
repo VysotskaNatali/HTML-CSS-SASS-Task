@@ -1,0 +1,166 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #eb5d44;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 300px;
+  background-color: #1d7fb4;
+  margin-top: 180px;
+}
+
+.twitter, .dribbble, .tumblur, .youtube, .instagram, .linkedld, .facebook {
+  display: flex;
+  flex-direction: row;
+  min-width: 150px;
+  height: 300px;
+}
+.twitter__brand, .dribbble__brand, .tumblur__brand, .youtube__brand, .instagram__brand, .linkedld__brand, .facebook__brand {
+  width: 150px;
+  height: 300px;
+  border: 1px solid #aaa8a8;
+  background-color: #5495e0;
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  line-height: 300px;
+  position: relative;
+  transition-duration: 0.7s;
+  transition-property: width;
+}
+.twitter__item, .dribbble__item, .tumblur__item, .youtube__item, .instagram__item, .linkedld__item, .facebook__item {
+  display: none;
+  width: 0px;
+  height: 300px;
+  overflow: hidden;
+  background-color: #fff;
+  transition-duration: 0.7s;
+  transition-property: width;
+}
+.twitter__item h1, .dribbble__item h1, .tumblur__item h1, .youtube__item h1, .instagram__item h1, .linkedld__item h1, .facebook__item h1 {
+  margin: 100px 0px 10px 10px;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: monospace;
+  font-family: monospace;
+}
+.twitter__item p, .dribbble__item p, .tumblur__item p, .youtube__item p, .instagram__item p, .linkedld__item p, .facebook__item p {
+  margin-left: 10px;
+  font-family: monospace;
+}
+
+.twitter__brand::before, .dribbble__brand::before, .tumblur__brand::before, .youtube__brand::before, .instagram__brand::before, .linkedld__brand::before, .facebook__brand::before {
+  content: "";
+  font-family: "Font Awesome 5 Brands";
+  font-size: 80px;
+  color: #fff;
+  overflow: hidden;
+  width: 0px;
+  height: 300px;
+  background: #3e8ab1;
+  background: linear-gradient(166deg, #36adeb 0%, #052b55 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition-duration: 0.1s;
+  transition-property: width;
+}
+
+.twitter:hover .twitter__brand::before, .twitter:hover .dribbble__brand::before, .dribbble:hover .twitter__brand::before, .dribbble:hover .dribbble__brand::before, .twitter:hover .tumblur__brand::before, .dribbble:hover .tumblur__brand::before, .tumblur:hover .twitter__brand::before, .tumblur:hover .dribbble__brand::before, .tumblur:hover .tumblur__brand::before, .twitter:hover .youtube__brand::before, .dribbble:hover .youtube__brand::before, .tumblur:hover .youtube__brand::before, .youtube:hover .twitter__brand::before, .youtube:hover .dribbble__brand::before, .youtube:hover .tumblur__brand::before, .youtube:hover .youtube__brand::before, .twitter:hover .instagram__brand::before, .dribbble:hover .instagram__brand::before, .tumblur:hover .instagram__brand::before, .youtube:hover .instagram__brand::before, .instagram:hover .twitter__brand::before, .instagram:hover .dribbble__brand::before, .instagram:hover .tumblur__brand::before, .instagram:hover .youtube__brand::before, .instagram:hover .instagram__brand::before, .twitter:hover .linkedld__brand::before, .dribbble:hover .linkedld__brand::before, .tumblur:hover .linkedld__brand::before, .youtube:hover .linkedld__brand::before, .instagram:hover .linkedld__brand::before, .linkedld:hover .twitter__brand::before, .linkedld:hover .dribbble__brand::before, .linkedld:hover .tumblur__brand::before, .linkedld:hover .youtube__brand::before, .linkedld:hover .instagram__brand::before, .linkedld:hover .linkedld__brand::before, .twitter:hover .facebook__brand::before, .dribbble:hover .facebook__brand::before, .tumblur:hover .facebook__brand::before, .youtube:hover .facebook__brand::before, .instagram:hover .facebook__brand::before, .linkedld:hover .facebook__brand::before, .facebook:hover .twitter__brand::before, .facebook:hover .dribbble__brand::before, .facebook:hover .tumblur__brand::before, .facebook:hover .youtube__brand::before, .facebook:hover .instagram__brand::before, .facebook:hover .linkedld__brand::before, .facebook:hover .facebook__brand::before {
+  width: 150px;
+}
+
+.twitter:hover .twitter__item, .twitter:hover .dribbble__item, .dribbble:hover .twitter__item, .dribbble:hover .dribbble__item, .twitter:hover .tumblur__item, .dribbble:hover .tumblur__item, .tumblur:hover .twitter__item, .tumblur:hover .dribbble__item, .tumblur:hover .tumblur__item, .twitter:hover .youtube__item, .dribbble:hover .youtube__item, .tumblur:hover .youtube__item, .youtube:hover .twitter__item, .youtube:hover .dribbble__item, .youtube:hover .tumblur__item, .youtube:hover .youtube__item, .twitter:hover .instagram__item, .dribbble:hover .instagram__item, .tumblur:hover .instagram__item, .youtube:hover .instagram__item, .instagram:hover .twitter__item, .instagram:hover .dribbble__item, .instagram:hover .tumblur__item, .instagram:hover .youtube__item, .instagram:hover .instagram__item, .twitter:hover .linkedld__item, .dribbble:hover .linkedld__item, .tumblur:hover .linkedld__item, .youtube:hover .linkedld__item, .instagram:hover .linkedld__item, .linkedld:hover .twitter__item, .linkedld:hover .dribbble__item, .linkedld:hover .tumblur__item, .linkedld:hover .youtube__item, .linkedld:hover .instagram__item, .linkedld:hover .linkedld__item, .twitter:hover .facebook__item, .dribbble:hover .facebook__item, .tumblur:hover .facebook__item, .youtube:hover .facebook__item, .instagram:hover .facebook__item, .linkedld:hover .facebook__item, .facebook:hover .twitter__item, .facebook:hover .dribbble__item, .facebook:hover .tumblur__item, .facebook:hover .youtube__item, .facebook:hover .instagram__item, .facebook:hover .linkedld__item, .facebook:hover .facebook__item {
+  width: 350px;
+  display: block;
+}
+
+.facebook__brand::before {
+  content: "";
+  background: #05162f;
+  background: linear-gradient(166deg, #05162f 0%, #1b2299 100%);
+}
+
+.linkedld__brand::before {
+  content: "";
+  background: #0c1e37;
+  background: linear-gradient(166deg, #0c1e37 0%, #317ab8 100%);
+}
+
+.instagram__brand::before {
+  content: "";
+  background: #124109;
+  background: linear-gradient(166deg, #124109 0%, #3db831 100%);
+}
+
+.youtube__brand::before {
+  content: "";
+  background: #c83514;
+  background: linear-gradient(166deg, #c83514 0%, #e3513e 100%);
+}
+
+.tumblur__brand::before {
+  content: "";
+  background: #020218;
+  background: linear-gradient(166deg, #020218 0%, #706ff5 100%);
+}
+
+.dribbble__brand::before {
+  content: "";
+  background: #a10b31;
+  background: linear-gradient(166deg, #a10b31 0%, #e44762 100%);
+}/*# sourceMappingURL=main.css.map */
