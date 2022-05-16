@@ -1,0 +1,70 @@
+@import url(reset.css);
+body {
+  background-image: url(./image/mlechnyj_put_zvezdnoe_nebo_zvezdy_128523_3840x2400.jpg);
+  background-size: cover;
+}
+.orbita {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 2px solid rgba(247, 247, 247, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform-style: preserve-3d;
+  transform: rotateX(70deg);
+}
+.earth {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-image: url(./image/Screenshot_1.png);
+  background-size: cover;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.568);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateX(-70deg);
+}
+.moon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-image: url(./image/Screenshot_2.png);
+  background-size: cover;
+  box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.568);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  animation-name: run;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform: rotateZ(0deg) translate(175px) rotateX(90deg) rotateY(0deg);
+}
+@keyframes run {
+    0% {
+      transform: rotateZ(0deg) translate(175px) rotateY(90deg) rotateX(-90deg);
+      
+    }
+  
+    50% {
+      transform: rotateZ(-180deg) translate(175px) rotateY(90deg) rotateX(-270deg);
+      
+    }
+  
+    100% {
+      transform: rotateZ(-360deg) translate(175px) rotateY(90deg) rotateX(-450deg);
+      box-shadow: inset 5em 1em rgba(243, 243, 129, 0.295); 
+    }
+  }
+
