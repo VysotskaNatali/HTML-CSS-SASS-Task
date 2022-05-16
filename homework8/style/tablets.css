@@ -1,0 +1,189 @@
+@media screen and (min-width: 340px) {
+    .container {
+      width: 768px;
+      min-height: 100px;
+      margin: 0 auto;
+    }
+  
+    .big-block {
+      width: 768px;
+      height: 354px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .big-left {
+      width: 385px;
+      height: 354px;
+      background-image: url(./image/tablet/philip-martin-5aGUyCW_PJw-unsplash.png);
+    }
+    .big-right {
+      width: 385px;
+      height: 354px;
+      padding: 57px 0 0 9px;
+    }
+    .big-top {
+      width: 320px;
+      height: 30px;
+    }
+    .bt-left {
+      font-size: 12px;
+      padding: 20px 0 0 13px;
+    }
+  
+    .big-text {
+      height: 103px;
+      margin: 30px 0 0 16px;
+    }
+    .read {
+      margin-top: 24px;
+      font-size: 12px;
+    }
+    .featured {
+      height: 43px;
+      padding: 66px 0 0 24px;
+    }
+    .middle-case {
+      width: 768px;
+      height: 457px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+    }
+    .middle-box {
+      width: 345px;
+      height: 405px;
+      margin: 0 15px;
+    }
+    .middle-img-left {
+      width: 345px;
+      height: 228px;
+      background-image: url(./image/tablet/Screen\ Shot\ 2560-08-18\ at\ 4.23.48\ PM\ Copy.png);
+    }
+    .middle-img-right {
+      width: 345px;
+      height: 228px;
+      background-image: url(./image/tablet/biocarbon-drone.jpg.650x0_q70_crop-smart\ copy.png);
+    }
+  
+    .middle-date {
+      margin-top: 24px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .mid-left {
+      font-size: 12px;
+      letter-spacing: 6px;
+    }
+    .mid-right {
+      display: block;
+      font-size: 12px;
+      text-decoration: underline;
+    }
+    .small-case {
+      width: 768px;
+      height: 260px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .small-box {
+      width: 220px;
+      height: 271px;
+      margin: 0 15px;
+    }
+  
+    .small-img-1 {
+      width: 220px;
+      height: 145px;
+      background-image: url(./image/tablet/img-1.png);
+    }
+    .small-img-2 {
+      width: 220px;
+      height: 145px;
+      background-image: url(./image/tablet/img-2\ copy.png);
+    }
+    .small-img-3 {
+      width: 220px;
+      height: 145px;
+      background-image: url(./image/tablet/img-3\ copy.png);
+    }
+    .small-date {
+      margin-top: 25px;
+    }
+    .small-text {
+      margin-top: 13px;
+      line-height: 23px;
+    }
+    .see {
+      margin-bottom: 59px;
+    }
+    .legre-case {
+      display: flex;
+      justify-content: center;
+    }
+    .legre-box-left {
+      width: 359px;
+      height: 275px;
+      background-image: url(./image/tablet/photo-1520781359717-3eb98461c9fe\ copy\ 3.png);
+    }
+    .legre-box-right {
+      width: 359.69px;
+      height: 275.24px;
+    }
+  
+    .interviews {
+      margin: 6px 0 17px 12px;
+    }
+    .small-img-4 {
+      width: 220px;
+      height: 145px;
+      background-image: url(./image/tablet/img-5.png);
+     margin: 0 0 -7px 0;
+    }
+    .small-img-5 {
+      width: 220px;
+      height: 145px;
+      background-image: url(./image/tablet/img-6.png);
+      margin: 0 0 -7px 0;
+    }
+    .small-img-6 {
+      width: 220px;
+      height: 145px;
+      background-image: url(./image/tablet/img-7.png);
+      margin: 0 0 -7px 0;
+      
+    }
+    .see-1 {
+      
+      margin: 33px 0 0 265px;
+    }
+    .news {
+      margin: 39px 0 29px 24px;
+    }
+    .small-img-7 {
+      width: 220px;
+      height: 144.26px;
+      background-image: url(./image/tablet/img-77.jpg);
+     margin: 0 0 -7px 0;
+    }
+    .small-img-8 {
+      width: 220px;
+      height: 144.26px;
+      background-image: url(./image/tablet/Screen\ Shot\ 2560-08-18\ at\ 4.38.56\ PM\ Copy\ 5.jpg);
+      margin: 0 0 -7px 0;
+    }
+    .small-img-9 {
+      width: 220px;
+      height: 144.26px;
+      background-image: url(./image/tablet/Screen\ Shot\ 2560-08-18\ at\ 4.38.56\ PM\ Copy\ 6.jpg);
+      margin: 0 0 -7px 0;
+      
+    }
+    .see-2 {
+      margin: 24px 0 72px 265px;
+     
+    }
+   
+  }
+  

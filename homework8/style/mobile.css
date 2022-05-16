@@ -1,0 +1,396 @@
+
+.container {
+    width: 320px;
+    min-height: 100px;
+    margin: 0 auto;
+    font-family: "Kanit";
+    font-weight: 500;
+    font-style: normal;
+    color: #1f1f1d;
+  }
+  .header {
+    width: 100%;
+    height: 65px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  .header-menu {
+    width: 40px;
+    height: 65px;
+  }
+  .logo {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    padding: 22px 39px 0 0;
+  }
+  .suffix {
+    width: 105px;
+    height: 20px;
+    background-image: url(./image/mobile/Group\ 13.png);
+  }
+  .dropbtn {
+    width: 70px;
+    height: 65px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  .dropbtn img {
+    width: 20px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown:hover::after {
+    content: "x";
+    width: 65px;
+    height: 40px;
+    font-size: 60px;
+  
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+  }
+  .dropdown-content {
+    width: 310px;
+    height: 359px;
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    background-color: #fff;
+    padding: 45px 50px;
+    box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  .dropdown-content a {
+      color: #1f1f1d;
+    padding: 12px 16px;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #fff;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: #fff;
+  }
+  .big-block {
+    width: 320px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .big-left {
+    width: 320px;
+    height: 294px;
+    background-image: url(./image/mobile/philip-martin-5aGUyCW_PJw-unsplash\ Copy.png);
+  }
+  .big-right {
+    width: 320px;
+    height: 246px;
+    background-color: black;
+  }
+  .big-top {
+    width: 320px;
+    height: 30px;
+  
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+  }
+  .bt-left {
+    font-size: 12px;
+    letter-spacing: 6px;
+    padding: 20px 0 0 13px;
+  }
+  .bt-right {
+    display: none;
+  }
+  .big-text {
+    width: 300px;
+    height: 104px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 29px 0 0 11px;
+  }
+  .b-top {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .b-bottom {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 0 0 5px 0;
+  }
+  .read {
+    width: 198px;
+    height: 40px;
+    border: 1px solid #fff;
+    background-color: black;
+    margin: 13px 0 0 13px;
+  }
+  .read-m {
+    color: #fff;
+    text-decoration: none;
+  }
+  .featured {
+    width: 320px;
+    height: 37px;
+    padding: 51px 0 0 11px;
+    font-size: 18px;
+  }
+  .middle-case {
+    width: 320px;
+    height: 816px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .middle-box {
+    width: 295px;
+    height: 405px;
+  }
+  .middle-img-left {
+    width: 295px;
+    height: 195px;
+    background-image: url(./image/mobile/Screen\ Shot\ 2560-08-18\ at\ 4.23.48\ PM\ Copy.png);
+  }
+  .middle-img-right {
+    width: 295px;
+    height: 195px;
+  
+    background-image: url(./image/mobile/biocarbon-drone.jpg.650x0_q70_crop-smart\ copy.png);
+  }
+  
+  .middle-date {
+    width: 100%;
+    height: 26px;
+    margin-top: 19px;
+  }
+  .mid-left {
+    font-size: 12px;
+    letter-spacing: 6px;
+  }
+  .mid-right {
+    display: none;
+  }
+  .middle-top {
+    width: 100%;
+    height: 65px;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 6px;
+    letter-spacing: 0.3px;
+  }
+  .middle-text {
+    width: 100%;
+    height: 105px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 15px;
+  }
+  .small-case {
+    width: 320px;
+    height: 856px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+  }
+  .small-box {
+    width: 295px;
+    height: 259px;
+  }
+  .height {
+    height: 271px;
+  }
+  .small-img-1 {
+    width: 295px;
+    height: 194.31px;
+    background-image: url(./image/mobile/Group\ 7.png);
+    margin-bottom: 17px;
+  }
+  .small-img-2 {
+    width: 295px;
+    height: 215.22px;
+    background-image: url(./image/mobile/Group\ 6.png);
+    margin-bottom: 8px;
+  }
+  .small-img-3 {
+    width: 295px;
+    height: 215px;
+    background-image: url(./image/mobile/Group\ 14.png);
+    margin-bottom: 8px;
+  }
+  .small-date {
+    width: 100%;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+  .small-left {
+    letter-spacing: 6px;
+  }
+  .small-right {
+    text-decoration: underline;
+  }
+  .small-text {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.05px;
+    margin-top: 16px;
+  }
+  .see {
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    margin: 37px 0 42px 0;
+  }
+  .see-all {
+    width: 238px;
+    height: 43px;
+    background-color: black;
+  }
+  .legre-case {
+    width: 100%;
+    min-height: 200px;
+  }
+  .legre-box-left {
+    width: 320px;
+    height: 245px;
+    background-image: url(./image/mobile/photo-1520781359717-3eb98461c9fe\ copy\ 3.png);
+  }
+  .legre-box-right {
+    width: 319.72px;
+    height: 174.52px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .legre-block {
+    width: 198px;
+    height: 97px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    padding-top: 7px;
+  }
+  .subscr {
+    width: 198px;
+    height: 42px;
+    border: 1px solid #fff;
+    background-color: black;
+    padding-top: 3px;
+  }
+  .interviews {
+    width: 320px;
+    height: 37px;
+    padding: 51px 0 0 11px;
+    font-size: 18px;
+  }
+  .small-img-4 {
+    width: 295px;
+    height: 194.31px;
+    background-image: url(./image/mobile/img-5.png);
+    margin-bottom: 16px;
+  }
+  .small-img-5 {
+    width: 295px;
+    height: 215.22px;
+    background-image: url(./image/mobile/Group\ 16.png);
+    margin-bottom: 8px;
+    margin-top: -12px;
+  }
+  .small-img-6 {
+    width: 295px;
+    height: 215px;
+    background-image: url(./image/mobile/Group\ 17.png);
+    margin-bottom: 8px;
+    margin-top: -12px;
+  }
+  .see-1 {
+    width: 100%;
+    height: 42px;
+    margin: 36px 20px 0 38px;
+  }
+  .news {
+    width: 200px;
+    height: 20px;
+    font-size: 18px;
+    margin: 48px 0 17px 11px;
+  }
+  .changes {
+    padding-top: 1px;
+  }
+  .small-img-7 {
+    width: 295px;
+    height: 194.31px;
+    background-image: url(./image/mobile/Screen\ Shot\ 2560-08-18\ at\ 4.39.04\ PM\ Copy\ 3.jpg);
+    margin-bottom: 18px;
+  }
+  .small-img-8 {
+    width: 295px;
+    height: 215.22px;
+    background-image: url(./image/mobile/Group\ 19.png);
+    margin-bottom: 10px;
+    margin-top: -12px;
+  }
+  .small-img-9 {
+    width: 295px;
+    height: 215px;
+    background-image: url(./image/mobile/Group\ 20.png);
+    margin-bottom: 10px;
+    margin-top: -12px;
+  }
+  .see-2 {
+    width: 238px;
+    height: 42px;
+    margin: 37px 0 44px 38px;
+  }
+  footer {
+    width: 100%;
+    height: 163px;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    background-color: black;
+    color: #fff;
+  }
+  .suffix-f {
+    width: 142px;
+    height: 26px;
+    background-image: url(./image/mobile/Group\ 2.png);
+    margin-top: 56px;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  figcaption {
+    line-height: 70px;
+    text-align: center;
+    margin-top: 38px;
+  }

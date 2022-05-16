@@ -1,0 +1,243 @@
+@media screen and (min-width: 798px) {
+  .container {
+    width: 1240px;
+    min-height: 100px;
+    margin: 0 auto;
+  }
+
+  .header {
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  .header-menu {
+    width: 40px;
+    height: 120px;
+  }
+
+  .suffix {
+    width: 157px;
+    height: 30px;
+    background-image: url(./image/medium/Group\ 13.png);
+    margin-top: 23px;
+  }
+  .dropbtn {
+    width: 45px;
+    height: 120px;
+  }
+  .dropdown {
+    padding: 0px 0 0 32px;
+  }
+  .dropdown:hover::after {
+    height: 50px;
+    font-size: 60px;
+    top: 25px;
+    left: 40px;
+  }
+  .dropdown-content {
+    width: 344px;
+    height: 359px;
+    top: 105px;
+    left: 50px;
+  }
+  .big-block {
+    width: 1240px;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .big-left {
+    width: 620px;
+    height: 570px;
+    background-image: url(./image/medium/philip-martin-5aGUyCW_PJw-unsplash.png);
+  }
+  .big-right {
+    width: 620px;
+    height: 570px;
+    padding: 130px 0 0 104px;
+  }
+  .big-top {
+    width: 407px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bt-left {
+    font-size: 14px;
+    letter-spacing: 7px;
+    padding: 2px 0 0 1px;
+  }
+  .bt-right {
+    display: block;
+    text-decoration: underline;
+    font-size: 16px;
+  }
+  .big-text {
+    width: 407px;
+    height: 175px;
+    margin: 25px 0 0 0px;
+  }
+  .b-top {
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+  }
+  .b-bottom {
+    font-size: 14px;
+  }
+  .read {
+    width: 198px;
+    height: 55px;
+    margin: 31px 0 0 0px;
+  }
+  .featured {
+    padding: 64px 0 0 149px;
+  }
+  .middle-case {
+    width: 1240px;
+    height: 610px;
+  }
+  .middle-box {
+    width: 455px;
+    height: 600px;
+    margin: 0 15px;
+  }
+  .middle-img-left {
+    width: 455px;
+    height: 301px;
+    background-image: url(./image/medium/Screen\ Shot\ 2560-08-18\ at\ 4.23.48\ PM.png);
+  }
+  .middle-img-right {
+    width: 455px;
+    height: 301px;
+    background-image: url(./image/medium/biocarbon-drone.jpg.650x0_q70_crop-smart.png);
+  }
+  .middle-date {
+    margin-top: 29px;
+  }
+  .middle-top {
+    height: 95px;
+    font-size: 24px;
+    line-height: 37px;
+    padding-top: 24px;
+    letter-spacing: 0.4px;
+  }
+  .middle-text {
+    height: 105px;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 20px;
+    letter-spacing: 0.7px;
+  }
+  .small-case {
+    width: 1240px;
+    min-height: 100px;
+  }
+  .small-box {
+    width: 295px;
+    height: 259px;
+  }
+
+  .small-img-1 {
+    width: 295px;
+    height: 195px;
+    background-image: url(./image/medium/img-1.png);
+  }
+  .small-img-2 {
+    width: 293px;
+    height: 194px;
+    background-image: url(./image/medium/img-2.png);
+  }
+  .small-img-3 {
+    width: 293px;
+    height: 194px;
+    background-image: url(./image/medium/img-3.png);
+  }
+  .small-date {
+    margin-top: 22px;
+  }
+  .small-text {
+    font-size: 18px;
+    margin-top: 22px;
+  }
+  .see {
+    height: 42px;
+    margin: 107px 0 61px 0;
+  }
+  .see-all {
+    height: 42px;
+  }
+  .legre-case {
+    width: 1240px;
+  }
+  .legre-box-left {
+    width: 470px;
+    height: 360px;
+    background-image: url(./image/medium/photo-1520781359717-3eb98461c9fe\ copy\ 3.png);
+  }
+  .legre-box-right {
+    width: 469.59px;
+    height: 360px;
+    padding-right: 18px;
+  }
+  .legre-block {
+    width: 335px;
+    height: 112px;
+    font-size: 34px;
+    letter-spacing: 1.1px;
+  }
+  .interviews {
+    margin: 14px 0 14px 139px;
+  }
+  .small-img-4 {
+    width: 295px;
+    height: 195px;
+    background-image: url(./image/medium/img-5.png);
+    margin-bottom: -1px;
+  }
+  .small-img-5 {
+    width: 295px;
+    height: 195px;
+    background-image: url(./image/medium/img-6.png);
+    margin-bottom: -2px;
+  }
+  .small-img-6 {
+    width: 295px;
+    height: 195px;
+    background-image: url(./image/medium/img-7.png);
+    margin-bottom: -2px;
+    
+  }
+  .see-1 {
+    margin: 106px 0 0 500px;
+  }
+  .news {
+    margin: 65px 0 23px 150px;
+  }
+  .small-img-7 {
+    width: 295px;
+    height: 195px;
+    background-image: url(./image/medium/Screen\ Shot\ 2560-08-18\ at\ 4.39.04\ PM\ Copy\ 3.jpg);
+    margin-bottom: -1px;
+  }
+  .small-img-8 {
+    width: 295px;
+    height: 195px;
+    background-image: url(./image/medium/Screen\ Shot\ 2560-08-18\ at\ 4.38.56\ PM\ Copy\ 5.jpg);
+    margin-bottom: -2px;
+  }
+  .small-img-9 {
+    width: 295px;
+    height: 195px;
+    background-image: url(./image/medium/Screen\ Shot\ 2560-08-18\ at\ 4.38.56\ PM\ Copy\ 6.jpg);
+    margin-bottom: -2px;
+    
+  }
+  .see-2 {
+    margin: 106px 0 88px 500px;
+   
+  }
+}

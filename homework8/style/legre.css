@@ -1,0 +1,166 @@
+@media screen and (min-width: 1260px) {
+  .container {
+    width: 1440px;
+    min-height: 100px;
+    margin: 0 auto;
+  }
+  .suffix {
+    background-image: url(./image/medium/Group\ 13.png);
+  }
+
+  .big-block {
+    width: 1440px;
+    height: 570px;
+    /* display: flex;
+      justify-content: center;
+      flex-wrap: wrap;*/
+  }
+  .big-left {
+    width: 720px;
+    height: 570px;
+    background-image: url(./image/legre/philip-martin-5aGUyCW_PJw-unsplash.png);
+  }
+  .big-right {
+    width: 720px;
+    height: 570px;
+    padding: 112px 0 0 108px;
+  }
+  .big-top {
+    width: 503px;
+    height: 30px;
+  }
+  .big-text {
+    width: 503px;
+    height: 115px;
+    margin: 56px 0 0 0px;
+  }
+  .b-bottom {
+    padding-right: 10px;
+  }
+  .read {
+    margin-top: 52px;
+  }
+  .featured {
+    padding: 64px 0 9px 149px;
+  }
+  .middle-case {
+    width: 1440px;
+    height: 654px;
+  }
+  .middle-box {
+    width: 557px;
+    height: 610px;
+    margin: 0 15px;
+  }
+  .middle-img-left {
+    width: 557px;
+    height: 368px;
+    background-image: url(./image/legre/Screen\ Shot\ 2560-08-18\ at\ 4.23.48\ PM.png);
+  }
+  .middle-img-right {
+    width: 557px;
+    height: 368px;
+    background-image: url(./image/legre/biocarbon-drone.jpg.650x0_q70_crop-smart.png);
+  }
+  .middle-date {
+    margin-top: 30px;
+  }
+
+  .small-case {
+    width: 1440px;
+    min-height: 100px;
+  }
+  .small-box {
+    width: 363px;
+    height: 331px;
+    margin-right: 13px;
+  }
+
+  .small-img-1 {
+    width: 363px;
+    height: 240px;
+    background-image: url(./image/legre/img-1.png);
+  }
+  .small-img-2 {
+    width: 363px;
+    height: 240px;
+    background-image: url(./image/legre/img-2.png);
+  }
+  .small-img-3 {
+    width: 363px;
+    height: 240px;
+    background-image: url(./image/legre/img-3.png);
+  }
+  .small-date {
+    margin-top: 22px;
+  }
+  .small-text {
+    font-size: 18px;
+    margin-top: 22px;
+  }
+  .see {
+    height: 42px;
+    margin: 130px 0 73px 0;
+  }
+  .legre-case {
+    width: 1440px;
+  }
+  .legre-box-left {
+    width: 571.5px;
+    background-image: url(./image/legre/photo-1520781359717-3eb98461c9fe.png);
+  }
+  .legre-box-right {
+    width: 571.5px;
+    padding-left: 20px;
+  }
+
+  .interviews {
+    margin: 15px 0 19px 139px;
+  }
+  .small-img-4 {
+    width: 363px;
+    height: 240px;
+    background-image: url(./image/legre/img-5.png);
+    margin-bottom: -9px;
+  }
+  .small-img-5 {
+    width: 363px;
+    height: 240px;
+    background-image: url(./image/legre/img-6.png);
+    margin-bottom: -9px;
+  }
+  .small-img-6 {
+    width: 363px;
+    height: 240px;
+    background-image: url(./image/legre/img-7.png);
+    margin-bottom: -9px;
+  }
+  .see-1 {
+    margin: 102px 0 0 603px;
+  }
+  .news {
+    margin: 38px 0 31px 150px;
+  }
+  .small-img-7 {
+    width: 363px;
+    height: 240px;
+    background-image: url(./image/legre/Screen\ Shot\ 2560-08-18\ at\ 4.39.04\ PM\ Copy\ 3.jpg);
+    margin-bottom: -2px;
+  }
+  .small-img-8 {
+    width: 363px;
+    height: 240px;
+    background-image: url(./image/legre/Screen\ Shot\ 2560-08-18\ at\ 4.38.56\ PM\ Copy\ 5.jpg);
+    margin-bottom: -2px;
+  }
+  .small-img-9 {
+    width: 363px;
+    height: 240px;
+    background-image: url(./image/legre/Screen\ Shot\ 2560-08-18\ at\ 4.38.56\ PM\ Copy\ 6.jpg);
+    margin-bottom: -2px;
+  }
+
+  .see-2 {
+    margin: 97px 0 100px 601px;
+  }
+}
